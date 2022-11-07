@@ -9,7 +9,20 @@
     <link rel="shortcut icon" href="../images/ares.ico" type="image/x-icon">
 </head>
 <body>
-    <h1 id="presentacion1">Hace mucho tiempo, en un lugar llamado Sevilla</h1>
-    <h1 id="presentacion2"> Nació un chavalillo conocido como Javier Ares</h1>
+    <audio id="musica" loop autoplay controls>
+        <source src='../music/stage1.mp3' type='audio/mpeg' preload="auto" />
+    </audio>
+    <div id="musica2"></div>
+    <div id="presentacion">    
+        <h1>Hace mucho tiempo, en un lugar llamado Sevilla
+        <p>Nació un chavalillo conocido como Javier Ares.</p>
+        Su amor por la tecnologia empezo desde chico, jugando a su juego favorito, Final Fantasy 1
+        </h1>
+    </div>
+
+    <button id="boton-continuar" onclick="transicion()" ondblclick="location.href='html/stage2.html'">Continuar</button>
+    <p id="mensaje">Pulsa teclas para atacar a los enemigos</p>
+    <script src="../scripts/scripts.js"></script>
+    <div id="commands"></div>
 </body>
 </html>
