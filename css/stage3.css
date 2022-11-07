@@ -15,10 +15,27 @@ h1{
         50% { opacity: 1; }
       }
 
-#autocritica{
-    color:black;
-    -webkit-animation: fadeinout 15s linear forwards;
-    text-align: -webkit-center;
-    font-family: fantasy;
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#mi_fotito{
+    float: left;
+    
+}
+
+#imagen_fran{
+    float: right;
+    
+}
+
+#mensaje_bonito{
+    color: black;
+    margin-bottom: 25px;
     font-size: xxx-large;
+    font-family: fantasy;
+    margin-top: 200px;
 }
