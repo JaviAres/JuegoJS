@@ -1,0 +1,53 @@
+body{
+    background-image:url('../images/stage2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color:black;
+    -webkit-animation: fadeinout 10s linear forwards;
+    text-align: -webkit-center;
+    font-family: fantasy;
+    font-size: xxx-large;
+    }
+    @-webkit-keyframes fadeinout {
+        0%,100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      
+      @keyframes fadeinout {
+        0%,100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+#pregunta{
+   
+    margin-top: 100px
+}
+
+#respuesta1,#respuesta2,#respuesta3,#respuesta4{
+    background-color: white;
+    margin-bottom: 25px;
+    font-size: xxx-large;
+    font-family: fantasy;
+     margin-left: 800px;
+}
+#foto{
+    margin-left: 800px
+}
+#respuestas{
+    display: table;
+}
+
+#question{
+    font-size: xxx-large;
+    font-family: fantasy;
+    margin-left: 350px;
+    float: left;
+}
+
+#control-boton{
+    margin-left: 900px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WataLife</title>
+    <link rel="stylesheet" href="../css/stage2.css">  
+    <link rel="shortcut icon" href="../images/ares.ico" type="image/x-icon">
+</head>
+</head>
+<body>
+    <div id="presentacion2">
+    <h1>Pero ahi no paró la cosa, el saber ingles le ayudó a disfrutar mas del medio de los videojuegos, y desarrollo a un apego por ambos, decidiendo estudiar ingles</h1>
+    </div>
+    <div id="pregunta">
+    <img src="../images/knight.png" style="display:none" id="foto">
+        <p id="question" style="display:none">What type of class (asterisk) of the person of the photo using?</p>
+        <div id="respuestas">   
+            <div id="respuesta1" style="display:none" onclick="correcto()">Knight</div>
+            <div id="respuesta2" style="display:none" onclick="error()">Mage</div>
+            <div id="respuesta3" style="display:none" onclick="error()">Archer</div>
+            <div id="respuesta4" style="display:none" onclick="error()">Summoner</div>
+        </div> 
+    
+    </div>
+    <script src="../scripts/stage2.js"></script>
+</body>
+<footer>
+    <div id="control-boton">
+        <button id="boton-continuar" onclick="transicion2()" ondblclick="location.href='html/stage3.html'">Continuar</button>
+    </div>
+</footer>
+</html>

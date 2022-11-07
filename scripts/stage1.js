@@ -24,4 +24,4 @@ function transicion(){
     console.log(HP);
   }, false);
 
-  //Stage2
+  
