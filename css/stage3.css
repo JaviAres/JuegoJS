@@ -1,0 +1,24 @@
+h1{
+    color:black;
+    -webkit-animation: fadeinout 10s linear forwards;
+    text-align: -webkit-center;
+    font-family: fantasy;
+    font-size: xxx-large;
+    }
+    @-webkit-keyframes fadeinout {
+        0%,100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      
+      @keyframes fadeinout {
+        0%,100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+
+#autocritica{
+    color:black;
+    -webkit-animation: fadeinout 15s linear forwards;
+    text-align: -webkit-center;
+    font-family: fantasy;
+    font-size: xxx-large;
+}
