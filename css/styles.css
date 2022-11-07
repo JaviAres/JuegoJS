@@ -21,3 +21,10 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+#boton_intro{
+  text-align: center;
+  color: white;
+  margin-top: auto;
+  font-size:xxx-large;
+}
